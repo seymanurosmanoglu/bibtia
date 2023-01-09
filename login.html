@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibtia - Giriş Yap</title>
+    <link rel="shortcut icon" type="image/png" href="media/turunculogo2.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="login-page">
+
+    <div class="header">
+        <!-- header start -->
+        <nav>
+            <!-- navbar start -->
+            <a href="index.html"> <img src="media/turunculogo2.png" class="logo"> </a>
+            <ul class="nav-links">
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li>
+                    <a href="login.html" class="btn">
+                        <i class="fa-solid fa-user" id="usericon"></i>
+                        <span>Giriş | Üyelik</span>
+                    </a>
+                </li>
+            </ul>
+        </nav> <!-- navbar end -->
+
+        <div class="form-box tab">
+            <!--form start-->
+            <div class="tab-header">
+                <a href="javascript:void(0);" class="selected" rel="login">Giriş Yap</a>
+                <a href="javascript:void(0);" class="" rel="register">Kayıt Ol</a>
+            </div>
+
+            <div class="tab-content selected" rel="login">
+                <form action="" method="post">
+                    <div class="input-group">
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" placeholder="Kullanıcı Adı">
+                        </div>
+
+                        <div class="input-field">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" placeholder="Şifre">
+                        </div>
+                        <p class="lostpassword">Şifremi Unuttum
+                            <a href="">Buraya Tıklayın!</a>
+                        </p>
+                    </div>
+                    <div class="btn-field">
+                        <button type="button" class="btn">
+                            Giriş Yap
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="tab-content" rel="register">
+                <form>
+                    <div class="input-group">
+                        <!--1-->
+                        <div class="input-field" id="namefield">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" placeholder="Ad Soyad">
+                        </div>
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" placeholder="Kullanıcı Adı">
+                        </div>
+                        <div class="input-field">
+                            <!--2-->
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="text" placeholder="E-Posta">
+                        </div>
+                        <div class="input-field">
+                            <!--3-->
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" placeholder="Şifre">
+                        </div>
+                    </div>
+                    <div class="btn-field">
+                        <button type="button" class="btn">
+                            Kayıt Ol
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--form end-->
+
+        <section class="footer">
+            <!--footer start-->
+            <ul class="list">
+                <p class="copyright">
+                    Copyright © 2023 Bibtia All rights reserved.
+                </p>
+            </ul>
+        </section>
+        <!--footer end-->
+
+    </div>
+    <!--header end-->
+
+    <script src="script.js"></script>
+</body>
+
+</html>

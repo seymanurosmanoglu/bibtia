@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibtia</title> <!--title-->
+    <link rel="shortcut icon" type="image/png" href="media/turunculogo2.png"> <!--logo-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> <!--google fonts-->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet" /> <!--fontawesome-->
+
+    <link rel="stylesheet" type="text/css" href="style.css"> <!--css connection-->
+</head>
+
+<body>
+    <div class="header">
+        <!-- header start -->
+
+        <video autoplay loop class="back-video" muted plays-inline>
+            <source src="media/video.mp4">
+        </video>
+
+        <nav>
+            <!-- navbar start -->
+            <a href="index.html"> <img src="media/turunculogo2.png" class="logo"> </a>
+            <ul class="nav-links">
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li>
+                    <a href="login.html" class="btn">
+                        <i class="fa-solid fa-user" id="usericon"></i>
+                        <span>Giriş | Üyelik</span>
+                    </a>
+                </li>
+            </ul>
+        </nav> <!-- navbar end -->
+
+        <div class="content">
+            <!-- content start -->
+            <h1>Araştırma Yapın</h1>
+            <form action="results.html" method="get">
+                <input type="text" placeholder="&#x270e; Merak ettiğiniz her şey" name="key">
+                <button type="submit">Ara</button>
+            </form>
+            <ul class="category-list">
+                <li class="category">
+                    <a href="results.html?key=Web Geliştirme">
+                        <img src="media/coding.png">
+                        <span>Web Geliştirme</span>
+                    </a>
+                </li>
+                <li class="category">
+                    <a href="results.html?key=Yoga">
+                        <img src="media/exercise.png">
+                        <span>Yoga</span>
+                    </a>
+                </li>
+                <li class="category">
+                    <a href="results.html?key=Müzik">
+                        <img src="media/guitar.png">
+                        <span>Müzik</span>
+                    </a>
+                </li>
+                <li class="category">
+                    <a href="results.html?key=Oyun Geliştirme">
+                        <img src="media/console.png">
+                        <span>Oyun Geliştirme</span>
+                    </a>
+                </li>
+            </ul>
+
+        </div> <!-- content end -->
+
+        <section class="footer">
+            <!--footer start-->
+                <p class="copyright">
+                    Copyright © 2023 Bibtia All rights reserved.
+                </p>
+            </ul>
+        </section>
+        <!--footer end-->
+
+    </div> <!-- header end -->
+    <script src="script.js"></script>
+</body>
+
+</html>
